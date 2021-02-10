@@ -35,7 +35,7 @@ body {
 
 /* Adjusts Hello! on home page */
 
-h1 {
+.hello {
   color: white;
   font-family: 'Roboto Slab', serif;
   font-size: 6rem;
@@ -45,6 +45,15 @@ h1 {
 }
 
 /* Styling of short bio under Hello! */
+
+.greeting {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 5rem;
+  text-shadow: .65rem .65rem black;
+  text-align: center;
+  margin-bottom: 25px
+}
 
 h3 {
   font-family: 'Roboto Slab', serif;
