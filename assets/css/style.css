@@ -1,0 +1,53 @@
+/* Changes the background color of the entire site. */
+
+body {
+  background-color: midnightblue;
+}
+
+/* Changes the font type used in the navbar */
+
+.container-fluid {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Adjusted margins of headshot */
+
+.rounded-circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 40%;
+  height: 50%;
+}
+
+/* Adjusted carousel photo sizes */
+
+.carousel-inner {
+  width: 50%;
+  height: 60%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border: black;
+}
+
+/* Adjusts Hello! on home page */
+
+h1 {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 6rem;
+  text-shadow: .7rem .7rem black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Styling of short bio under Hello! */
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  text-align: center;
+}
